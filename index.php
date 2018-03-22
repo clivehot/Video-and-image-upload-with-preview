@@ -10,7 +10,7 @@
 		var videofileobj = {};
 		videofileobj = event.target.files;
 		//Place file into an array so we can manipulate it
-		videofile = [];
+		var videofile = [];
         videofile.push(videofileobj[0]);
         var videoname = videofile[0].name;
         videoname = videoname.toLowerCase();
@@ -38,7 +38,7 @@
 		var imagefileobj = {};
 		imagefileobj = event.target.files;
 		//Place file into an array so we can manipulate it
-		imagefile = [];
+		var imagefile = [];
         imagefile.push(imagefileobj[0]);
         var imagename = imagefile[0].name;
         imagename = imagename.toLowerCase();
